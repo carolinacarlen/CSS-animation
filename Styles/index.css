@@ -1,8 +1,9 @@
 .valley {
-  width: 600px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
   border-radius: 20px;
   align-self: center;
+  animation: valley 5s 3s;
 }
 
 body {
@@ -19,10 +20,15 @@ body {
   width: 100%;
 }
 
-h1,
+h1 {
+  color: black;
+  text-align: center;
+}
 h2 {
   color: lightseagreen;
   text-align: center;
+  animation-name: infotext;
+  animation-delay: 9s;
 }
 h3 {
   color: lightblue;
@@ -55,7 +61,7 @@ button {
     rotate: (0deg);
   }
   to {
-    transform: scale(1.1);
+    transform: scale(1.5);
     rotate: (360deg);
   }
 }
